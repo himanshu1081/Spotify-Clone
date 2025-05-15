@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 300px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar .logo img {
+    width: 148px;
+}
+
+.sidebar .navigation ul a,
+.sidebar .navigation ul,
+.sidebar .navigation2 ul a,
+.sidebar .navigation2 ul,
+.sidebar .policy ul {
+    list-style: none;
+    text-decoration: none;
+    color: #cec6c6;
+}
+
+.sidebar .policy ul {
+    position: fixed;
+    bottom: 40px;
+}
+
+.sidebar .policy ul li a {
+    color: #746e6e;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.sidebar .navigation li,
+.sidebar .navigation2 li {
+    padding: 8px 10px;
+}
+
+.sidebar .navigation ul .icon,
+.sidebar .navigation2 ul .icon {
+    padding-right: 6px;
+}
+
+.sidebar .navigation {
+    padding: 20px 0px 30px 0px;
+}
+
+.sidebar ul li a:hover {
+    color: white;
+    transition: 25ms;
+}
+
+.main-container {
+    margin-left: 341px;
+    margin-bottom: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 18px 30px;
+    align-items: center;
+    position: sticky;
+}
+
+.main-container .topbar .prev-next-button button {
+    background-color: #131010;
+    color: #cec6c6;
+    border: none;
+    height: 27px;
+    width: 27px;
+    border-radius: 60px;
+    cursor: not-allowed;
+}
+
+.main-container .topbar .nav ul li {
+    list-style: none;
+    color: #cec6c6;
+    display: inline-block;
+}
+
+.main-container .topbar .nav li .signup {
+    text-decoration: none;
+    color: #b4a7a7;
+    text-align: center;
+}
+
+.main-container .topbar .nav li .signup:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-container .topbar .nav ul li button {
+    margin: 0px 50px 0px 25px;
+    border: none;
+    height: 50px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.main-container .topbar .nav li button:hover {
+    background-color: #b1afaf;
+    cursor: pointer;
+}
+
+.main-container .heading {
+    color: white;
+    font-weight: bold;
+    margin: 25px 0px 0px 35px;
+    font-size: 25px;
+}
+
+.box ul li {
+    background-color: #171717;
+    display: inline-flex;
+    float: left;
+    margin: 20px 0px 20px 27px;
+    height: 260px;
+    width: 162px;
+    border-radius: 8px;
+    transition: 30ms;
+    transition-delay: 25ms;
+}
+
+.box ul li img {
+    height: 135px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.5);
+    margin-bottom: 10px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+.box ul li a span{
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.box ul li a p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b1afaf;
+}
+.box ul li:hover{
+    background-color: #2b2b2b;
+}
+.box ul li i{
+    position: relative;
+    bottom: 40px;
+    left:85px;
+    color: #1ed760;
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+.box ul li div{
+    position: absolute;
+}
+.box ul li:hover .fa-solid{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.box ul li .fa-solid:hover{
+    font-size:36px
+}
+.card-box{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

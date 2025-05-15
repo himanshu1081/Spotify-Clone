@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player : Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Spotify_icon.svg.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/ed17392884.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="Images/Spotify_Logo_RGB_Green.png" alt="Spotify logo">
+            </a>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa-solid fa-house icon"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa-solid fa-magnifying-glass icon"></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="fa-solid fa-book icon"></span>
+                        <span>Your Library</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navigation2">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa-sharp fa-solid fa-square-plus icon"></span>
+                        <span>Create Playlist</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="fa-solid fa-heart icon"></span>
+                        <span>Liked Songs</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="policy">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span>Cookies</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Privacy</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-container">
+        <div class="topbar">
+            <div class="prev-next-button">
+                <button type="button" class="fa-solid fa-chevron-left"></button>
+                <button type="button" class="fa-solid fa-chevron-right"></button>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#" class="signup">
+                            Sign Up
+                        </a>
+                    </li>
+                    <li>
+                        <button type="button">Log in</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="first-row">
+            <div class="heading">
+                <span>Spotify Playlists</span>
+            </div>
+            <div class="box">
+                <ul>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Today's Top Hits.jpg" alt="Today's Top Lists">
+                            <div class="play-button">
+                                <i class="fa-solid fa-circle-play" onclick="play('co2.m4a')"></i>
+                            </div>
+                            <span>Today's Top Lists</span>
+                            <p>Olivia Rodrigo is on top of the Hottest 50!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/RapCaviar.jpg" alt="RapCaviar">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('kbt.m4a')"></i>
+                            </div>
+                            <span>RapCaviar</span>
+                            <p>New Music from Cardi B, Megan Thee Stallion an...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/All Out 2010s.jpg" alt="All out 2010s">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hhg.m4a')"></i>
+                            </div>
+                            <span>All out 2010s</span>
+                            <p>The biggest songs of the 2010s.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Rock Classics.jpg" alt="Rock Classics">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Rock Classics</span>
+                            <p>Rock Legends & epic songs that continue to...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Chill Hits.jpg" alt="Chill Hits">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hjdhj.m4a')"></i>
+                            </div>
+                            <span>Chill Hits</span>
+                            <p>Kick back to the best new and recent chill hits</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Viva Latino.jpg" alt="Viva Latino">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('kthn.m4a')"></i>
+                            </div>
+                            <span>Viva Latino</span>
+                            <p>Today's top Latin hits elevando nuestra...</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="heading">
+                <span>Focus</span>
+            </div>
+            <div class="box">
+                <ul>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Peaceful Piano.jpg" alt="Peaceful Piano">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Peaceful Piano</span>
+                            <p>Peaceful piano to help you slow down, breath...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Deep Focus.jpg" alt="Deep Focus">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Deep Focus</span>
+                            <p>Keep calm and focus with ambient and post-...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Instrumental Study.jpg" alt="Instrumental Study">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Instrumental Study</span>
+                            <p>Focus with soft study music in the background.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Focus Flow.jpg" alt="Focus Flow">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Focus Flow</span>
+                            <p>Uptempo instrumental hip hop beats</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Beats to think to.jpg" alt="Beats to think to">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Beats to think to</span>
+                            <p>Focus with melodic techno and tech house.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/Reading Adventure.jpg" alt="Reading Adventure">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span>Reading Adventure</span>
+                            <p>Scores and soundtracks for daring quests, epic...</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="third-row">
+            <div class="heading">
+                <span>Sound of India</span>
+            </div>
+            <div class="box">
+                <ul>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/The Sound of Mumbai.jpg" alt="The Sound of Mumbai">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span class="title-text">The Sound of Mumbai</span>
+                            <p>The songs that define, unite and distinguish...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/The Sound of Kolkata.jpg" alt="The Sound of Kolkata">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span class="title-text">The Sound of Kolkata</span>
+                            <p>The songs that define, unite and distinguish...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/The Sound of Delhi.jpg" alt="The Sound of Delhi">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span class="title-text">The Sound of Delhi</span>
+                            <p>The songs that define, unite and distinguish...</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/The Sound of Chennai.jpg" alt="The Sound of Chennai">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span class="title-text">The Sound of Chennai</span>
+                            <p>The songs that define, unite and distinguish...</p>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="card-box">
+                            <img src="Images/The Sound of Hyderabad.jpg" alt="The Sound of Hyderabad">
+                            <div>
+                                <i class="fa-solid fa-circle-play" onclick="play('hehe.m4a')"></i>
+                            </div>
+                            <span class="title-text">The Sound of Hyderabad</span>
+                            <p>The songs that define, unite and distinguish...</p>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="some.js"></script>
+
+</body>
+
+</html>
